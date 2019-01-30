@@ -10,3 +10,9 @@ amreval_old/
 EN*
 add_en.sh
 add_en.py
+*.pyc
+*.p
+*.parsed
+*.out
+.venv/
+*.sentences

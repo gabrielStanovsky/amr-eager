@@ -1,12 +1,12 @@
 #!/bin/bash
-
+set -e
 # Preprocessing script for AMR data
 # For preocessing unaligned amr annotations, use: ./preprocessing.sh <file>
 # For preprocessing amr annotations aligned with JAMR (or other aligner that generate similar output), use: ./preprocessing.sh -a <file>
 # For preprocessing English sentences (parsing only), use: ./preprocessing.sh -s <file>
 
 
-JAMR="/disk/ocean/public/tools/jamr2016"
+JAMR="$HOME/jamr/"
 TOKENIZER="cdec-master/corpus/tokenize-anything.sh"
 CORENLP="stanford-corenlp-full-2015-12-09/"
 

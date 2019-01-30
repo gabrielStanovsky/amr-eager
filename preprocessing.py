@@ -36,7 +36,7 @@ def run(prefix, amrs):
     allalignments = []
     k = 0
     for i_s, sentence in enumerate(data.getAllSents()):
-        print "Sentence", i_s + 1
+        print ("Sentence", i_s + 1)
         k += 1
         if amrs:
             variables = {}

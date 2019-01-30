@@ -1,3 +1,5 @@
+#!/bin/bash
+set -e
 wget http://kinloch.inf.ed.ac.uk/public/direct/amreager/resources_single.tar.gz
 tar -xf resources_single.tar.gz
 rm -f resources_single.tar.gz
